@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/cloud-solid.svg">
+</head>
+
+<body>
+    <div class="Card">
+
+        <!-- input-part -->
+        <div class="Flex-input-search">
+            <input type="text" placeholder="enter city name">
+        <button><img class="search" src="images/search.png"></button>
+        </div>
+        <!-- Middle part -->
+        <div class="middle">
+            <img src="images/drizzle.png" class="Weather-icon"></img>
+            <h1 class="temp">22°c</h1>
+            <h1 class="new-york">New York</h1>
+     
+        <!-- humidity and Wind-speed -->
+        <div class="lower">
+
+            <div class="flex-humidity">
+            <div class="pic-humidity"></div>
+            <div><p class="data-humidity">50%</p><p>Humidity</p></div>
+            </div>
+
+            <div class="flex-Wind">
+                <div class="pic-Wind"></div>                             
+            <div><p class="data-Wind">50 km/h</p><p>Wind Speed</p></div>               
+           </div>
+        </div>
+    </div>
+</div>
+    <script src="script.js">
+
+    </script>
+</body>
+</html>
